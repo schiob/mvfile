@@ -3,11 +3,13 @@
   [
     {
       "in_path": "/tmp/in",
-      "out_path": "/tmp/exit"
+      "out_path": "/tmp/exit",
+      "user": "user"
     },
     {
       "in_path": "/tmp/in2",
-      "out_path": "/tmp/exit2"
+      "out_path": "/tmp/exit2",
+      "user": "user:group"
     }
   ]
 }
