@@ -27,10 +27,9 @@ func mvWhenDone(filepath string, dest string, fileName string, user string, wait
 	}
 	size0 := int64(0)
 	newSize := fi.Size()
-	//log.Printf("Initial old size: %v\nnew size: %v", size0, newSize)
+
 	for newSize != size0 {
 		time.Sleep(time.Second * time.Duration(wait))
-		//log.Printf("old size: %v\nnew size: %v", size0, newSize)
 		fi, err = file.Stat()
 		if err != nil {
 			log.Fatal(err)
