@@ -1,0 +1,8 @@
+# Path to json file
+jsonpaths="dirPaths.json"
+
+# Path of logfile
+logfile="mvfile.log"
+
+# Time in sec for wait between file size checks
+wait=5

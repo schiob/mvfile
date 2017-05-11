@@ -1,0 +1,13 @@
+{
+  "paths":
+  [
+    {
+      "in_path": "/tmp/in",
+      "out_path": "/tmp/exit"
+    },
+    {
+      "in_path": "/tmp/in2",
+      "out_path": "/tmp/exit2"
+    }
+  ]
+}
